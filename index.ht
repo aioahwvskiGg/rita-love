@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#09040a">
+  <title>For Rita ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="hearts"></div>
+
+  <header class="navbar">
+    <div class="logo">Rita <span>♥</span></div>
+    <a href="#proposal">My Question</a>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <p class="small-text">A little website made with love</p>
+
+        <h1>To My Rita <span>❤️</span></h1>
+
+        <p id="typing"></p>
+
+        <button class="primary-btn" id="openHeart">
+          Open My Heart ❤️
+        </button>
+      </div>
+    </section>
+
+
+    <!-- LOVE LETTER -->
+    <section class="section reveal">
+      <p class="section-label">A little message</p>
+      <h2>For You, Rita 💌</h2>
+
+      <div class="glass-card letter">
+        <p>
+          Rita, I don't always know how to put everything I feel
+          into words. But I wanted to create this little place
+          just for you.
+        </p>
+
+        <p>
+          Every smile, every conversation, every little memory
+          means more to me than you probably realize.
+        </p>
+
+        <p>
+          This website isn't perfect, but it's something I made
+          specially for you. ❤️
+        </p>
+
+        <p class="signature">— From someone who cares about you ❤️</p>
+      </div>
+    </section>
+
+
+    <!-- WHY I LOVE YOU -->
+    <section class="section reveal">
+      <p class="section-label">Six little reasons</p>
+      <h2>Why You're Special ❤️</h2>
+
+      <div class="cards">
+
+        <div class="reason-card">
+          <div class="icon">😊</div>
+          <h3>Your Smile</h3>
+          <p>It can make an ordinary moment feel special.</p>
+        </div>
+
+        <div class="reason-card">
+          <div class="icon">👀</div>
+          <h3>Your Eyes</h3>
+          <p>There is something unforgettable about them.</p>
+        </div>
+
+        <div class="reason-card">
+          <div class="icon">🌷</div>
+          <h3>Your Kindness</h3>
+          <p>The little things you do can mean a lot.</p>
+        </div>
+
+        <div class="reason-card">
+          <div class="icon">🎧</div>
+          <h3>Your Voice</h3>
+          <p>Some voices just feel comforting to hear.</p>
+        </div>
+
+        <div class="reason-card">
+          <div class="icon">✨</div>
+          <h3>Your Presence</h3>
+          <p>Sometimes simply having you around is enough.</p>
+        </div>
+
+        <div class="reason-card">
+          <div class="icon">❤️</div>
+          <h3>Simply You</h3>
+          <p>You don't need to be anyone else.</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- GALLERY -->
+    <section class="section reveal">
+      <p class="section-label">Our little gallery</p>
+      <h2>Beautiful Memories 📸</h2>
+
+      <div class="gallery">
+
+        <div class="photo">
+          <img src="images/rita1.jpg" alt="Rita">
+        </div>
+
+        <div class="photo">
+          <img src="images/rita2.jpg" alt="Rita">
+        </div>
+
+        <div class="photo">
+          <img src="images/rita3.jpg" alt="Rita">
+        </div>
+
+        <div class="photo">
+          <img src="images/rita4.jpg" alt="Rita">
+        </div>
+
+        <div class="photo">
+          <img src="images/rita5.jpg" alt="Rita">
+        </div>
+
+        <div class="photo">
+          <img src="images/rita6.jpg" alt="Rita">
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SURPRISE -->
+    <section class="section surprise-section reveal">
+      <p class="section-label">One little surprise</p>
+      <h2>Tap This 💌</h2>
+
+      <button class="primary-btn" id="surpriseBtn">
+        Tap for a Surprise
+      </button>
+
+      <div class="surprise-box" id="surpriseBox">
+        <div class="big-heart">❤️</div>
+        <p>
+          No matter how many words I write,
+          they still wouldn't completely explain
+          how special you are to me, Rita.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- PROPOSAL -->
+    <section class="proposal reveal" id="proposal">
+
+      <div class="proposal-content">
+
+        <p class="section-label">One important question</p>
+
+        <h2>Rita, Will You Stay By My Side? ❤️</h2>
+
+        <p>
+          Let's make more memories, laugh at stupid things,
+          support each other and keep choosing each other.
+        </p>
+
+        <div class="proposal-buttons">
+
+          <button class="yes-btn" id="yesBtn">
+            YES ❤️
+          </button>
+
+          <button class="always-btn" id="alwaysBtn">
+            ALWAYS ❤️
+          </button>
+
+        </div>
+
+        <div id="answer"></div>
+
+      </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+      <p>Made with ❤️ for Rita</p>
+      <small>One little website. One special person.</small>
+    </footer>
+
+  </main>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button id="closeLightbox">×</button>
+    <img id="lightboxImg" src="" alt="Preview">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html
