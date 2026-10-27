@@ -956,3 +956,94 @@ footer {
   }
 
 }
+
+/* Rita romantic password screen */
+#rita-lock {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: radial-gradient(circle at top, #54233f, #100810 75%);
+  color: #fff4f8;
+  font-family: Georgia, serif;
+}
+
+#rita-lock .lock-card {
+  width: 100%;
+  max-width: 390px;
+  box-sizing: border-box;
+  padding: 38px 25px;
+  text-align: center;
+  border: 1px solid rgba(255, 190, 215, .3);
+  border-radius: 24px;
+  background: rgba(255,255,255,.06);
+  box-shadow: 0 20px 70px rgba(0,0,0,.35);
+}
+
+#rita-lock .lock-heart {
+  color: #ff80b5;
+  font-size: 58px;
+  animation: rita-heartbeat 1.5s infinite;
+}
+
+#rita-lock .lock-small {
+  color: #e8afc8;
+  font: 10px Arial, sans-serif;
+  letter-spacing: 3px;
+}
+
+#rita-lock h1 {
+  margin: 18px 0 10px;
+  font-size: 42px;
+}
+
+#rita-lock .lock-message {
+  color: #e9d3df;
+  font-size: 15px;
+}
+
+#rita-lock input {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #aa6585;
+  border-radius: 12px;
+  outline: none;
+  background: #241321;
+  color: white;
+  font-size: 15px;
+}
+
+#rita-lock button {
+  width: 100%;
+  margin-top: 14px;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(100deg, #ff79ad, #d94d8a);
+  color: #270c1b;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#rita-lock-error {
+  min-height: 18px;
+  color: #ffb5ce;
+  font: 13px Arial, sans-serif;
+}
+
+#rita-lock .lock-footer {
+  margin-top: 22px;
+  color: #d9a4bc;
+  font-size: 12px;
+}
+
+@keyframes rita-heartbeat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.12); }
+}

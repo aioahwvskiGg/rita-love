@@ -430,3 +430,25 @@ document.addEventListener(
 
   }
 );
+
+/* Rita demo password lock */
+(function () {
+  const form = document.getElementById("rita-unlock-form");
+  const lock = document.getElementById("rita-lock");
+  if (!form || !lock) return;
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const entered =
+      document.getElementById("rita-password").value;
+    const error =
+      document.getElementById("rita-lock-error");
+
+    if (entered.trim() === "i love you 😘") {
+      lock.style.display = "none";
+    } else {
+      error.textContent = "Not quite, my love. Try again 💗";
+    }
+  });
+})();
